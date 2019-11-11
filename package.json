@@ -1,0 +1,17 @@
+{
+  "name": "azure-status",
+  "version": "1.0.0",
+  "description": "Store data get from website https://status.azure.com/en-us/status",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=getAzureData"
+  },
+  "author": "Duy Anh Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.3.2",
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^2.0.0"
+  }
+}
